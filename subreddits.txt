@@ -1,0 +1,10 @@
+wallpaperdump 1
+PixelArt 2
+isometric 1
+CityPorn 4
+EarthPorn 7
+ImaginaryLandscapes 4
+ImaginarySliceOfLife 4
+spaceporn 4
+wallpaper 3
+wallpapers 3

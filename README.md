@@ -1,5 +1,7 @@
 i.e. I didn't like any of the other tools out there so here's some python that does what I want.
 
+![](/demo.png)
+
 A lot of the other tools to scrape wallpapers from Reddit do so on a periodic basis, and some automatically set your wallpaper each day/on startup, but I really just wanted a way to collect wallpapers from subreddits, without having to go to each subreddit and manually click each link, wait for the picture to load, and then deciding whether or not to download it. This frontloads the downloading so that I can filter through them faster.
 
 I don't constantly look for better wallpapers from subreddits, I just want a few hundred of them to cycle through.

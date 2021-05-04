@@ -90,6 +90,8 @@ def get_links(subreddit_list: Dict[str, int]) -> List[str]:
     """
     global driver
 
+    assert driver is not None
+
     driver.get("https://old.reddit.com")
 
     # prompt the user to log in

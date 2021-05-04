@@ -35,25 +35,23 @@ Copy all the images from `./landscape` to `~/Documents/wallpapers`.
 #### Requirements
 
 - selenium/python setup with chromedriver, see [here](https://selenium-python.readthedocs.io/installation.html#introduction)
-- [pipenv](https://github.com/pypa/pipenv)
 - python3.6+
 
 ### Run
 
-Clone the repo.
+Clone the repo, install dependencies (`python3 -m pip install -r requirements.txt`)
 
 Modify `subreddits.txt` to whichever subreddits you want to use, subreddit name, then number of pages
 
+Run:
+
 ```
-pipenv sync
-pipenv run python3 download.py
+python3 download.py
 ```
 
 If your webdriver is somewhere else and selenium fails to find it, you can set the `WALLPAPER_DRIVER` environment variable:
 
 ```
-pipenv sync
-pipenv shell
 export WALLPAPER_DRIVER="${HOME}/Downloads/chromedriver"
 python3 download.py
 ```
